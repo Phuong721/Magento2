@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="KhieuDV_Blog::manager" title="FAQ" module="KhieuDV_Blog" sortOrder="10" resource="KhieuDV_Blog::manager"/>
+        <add id="KhieuDV_Blog::add_row" title="FAQ Manager" module="KhieuDV_Blog" sortOrder="20" parent="KhieuDV_Blog::manager" action="blog/faq" resource="KhieuDV_Blog::add_row"/>
+    </menu>
+</config>

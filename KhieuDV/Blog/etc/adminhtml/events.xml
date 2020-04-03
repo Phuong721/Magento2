@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="khieudv_blog_modified_db">
+        <observer name="modified_db" instance="KhieuDV\Blog\Observer\ModifiedDB" />
+    </event>
+</config>
